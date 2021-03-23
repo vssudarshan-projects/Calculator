@@ -1,0 +1,46 @@
+body{
+  text-align: center;
+  background-color:  #FAFAD4;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+h1{
+  margin-top:3rem;
+  color:#FF483F;
+}
+.container{
+  display: inline-block;
+  width:25%;
+  position: relative;
+  top: 6rem;
+  margin:0;
+  padding:0;
+}
+.display{
+  display: inline-block;
+    width:100%;
+    padding: 0;
+    margin: 0;
+    text-align:center;
+    border-style: inset;
+    border-color: grey;
+}
+.number, .operator, .decimal, .reset{
+display: inline-block;
+width:25%;
+padding: 0;
+margin: 0;
+}
+
+.reset:hover, .decimal:hover, .operator:hover{
+  color:white;
+  background-color: #ffc107;
+}
+
+.result{
+  width:100%;
+  color:black;
+}

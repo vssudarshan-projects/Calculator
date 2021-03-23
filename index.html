@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+<link rel="stylesheet" href="./bootstrap.css">
+  <link rel="stylesheet" href="./styles.css">
+
+  <title>Web Calculator</title>
+</head>
+<body>
+  <h1>Web Calculator</h1>
+  <div class="container">
+      <ul>
+        <li>
+          <input type="text" readonly class="form-control display" id="display" name="display" value="0">
+        </li>
+        <li>
+          <input type="button" class="btn btn-outline-secondary number" id="1-btn" name="1-btn" value="1"><!--
+          --><input type="button" class="btn btn-outline-secondary number" id="2-btn" name="2-btn" value="2"><!--
+          --><input type="button" class="btn btn-outline-secondary number" id="3-btn" name="3-btn" value="3"><!--
+          --><input type="button" class="btn btn-outline-secondary operator" id="43-btn" name="" value="+">
+        </li>
+        <li>
+          <input type="button" class="btn btn-outline-secondary number" id="4-btn" name="4-btn" value="4"><!--
+          --><input type="button" class="btn btn-outline-secondary number" id="5-btn" name="5-btn" value="5"><!--
+          --><input type="button" class="btn btn-outline-secondary number" id="6-btn" name="6-btn" value="6"><!--
+          --><input type="button" class="btn btn-outline-secondary operator" id="45-btn" name="" value="-">
+        </li>
+        <li>
+          <input type="button" class="btn btn-outline-secondary number" id="7-btn" name="7-btn" value="7"><!--
+          --><input type="button" class="btn btn-outline-secondary number" id="8-btn" name="8-btn" value="8"><!--
+          --><input type="button" class="btn btn-outline-secondary number" id="9-btn" name="9-btn" value="9"><!--
+          --><input type="button" class="btn btn-outline-secondary operator" id="42-btn" name="" value="x">
+        </li>
+        <li>
+          <input type="button" class="btn btn btn-outline-secondary reset" name="" value="AC"><!--
+          --><input type="button" class="btn btn-outline-secondary number" id="0-btn" name="0-btn" value="0"><!--
+          --><input type="button" class="btn btn-outline-secondary decimal" id="46-btn" name="" value="."><!--
+          --><input type="button" class="btn btn-outline-secondary operator" id="47-btn" name="" value="/">
+        </li>
+        <li><input type="button" class="btn btn-outline-danger result" id="13-btn" name="" value="="></li>
+      </ul>
+  </div>
+  <script src="./index.js" charset="utf-8"></script>
+</body>
+</html>
