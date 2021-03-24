@@ -18,7 +18,7 @@ window.addEventListener("keydown", (key) => {
   document.getElementById(key.which + "-btn").click();
   else if(key.which == 13) // =
   getResult();
-  else if(key.which == 110 || key.which == 190) //.
+  else if(key.which == 110 || key.which == 190) /*.*/
   document.getElementById("110-btn").click();
 });
 
