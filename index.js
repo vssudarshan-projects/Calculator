@@ -11,7 +11,7 @@ opBtn[i].addEventListener("click", getOp);
 /*check for key press*/
 window.addEventListener("keydown", (key) => {
 
-  alert(key.which);
+  //alert(key.which);
   if((key.which >= 96 && key.which <= 105)||(key.which >= 48 && key.which <= 57)) /*0 to 9 */
   document.getElementById(key.key + "-btn").click();
   else if(key.which == 106 || key.which == 107 || key.which == 109 || key.which == 111) /* (*) (+) (-) (/)  */
